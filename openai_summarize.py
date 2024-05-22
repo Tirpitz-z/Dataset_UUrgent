@@ -4,8 +4,8 @@ import httpx
 from typing import Dict, List, Optional, Tuple, Union
 
 client = OpenAI(
-    base_url="https://api.xiaoai.plus/v1",
-    api_key="sk-n2Ycg76HS6faWt1I1e1f5d25C1Fb492e80Bd64Da40C44f59",
+    base_url="",
+    api_key="",
     http_client=httpx.Client(
         base_url="https://api.xiaoai.plus/v1",
         follow_redirects=True,
